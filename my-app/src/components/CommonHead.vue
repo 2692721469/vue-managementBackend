@@ -31,6 +31,9 @@ export default {
                 console.log(command);
                 window.sessionStorage.clear();
                 this.$router.push('/login');
+            } else if (command === 'userCenter') {
+                console.log(command);
+                this.$router.push('/User');
             }
         }
     }
